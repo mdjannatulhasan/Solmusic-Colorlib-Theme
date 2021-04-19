@@ -5,6 +5,13 @@ body{
     background: #08192D;
     padding: 20px 40px;
 }
+nav li{
+    padding-right:35px; ;
+}
+.nav-link:hover{
+    color:#fc0254 !important;
+    cursor: pointer !important;
+}
 .container{
     max-width: 60%;
 }
@@ -39,8 +46,9 @@ body{
     font-size: 15px;
     font-weight: 500;
 }
-.heroBody span{
+.heroBody span, .pinkFont{
     color: #F50254;
+    text-decoration: none;
 }
 .heroBodyImg{
     background: url("images/hero-bg.png");
