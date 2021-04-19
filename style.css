@@ -1,6 +1,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.headSec{
+    background: #08192D;
+    padding: 20px 40px;
+}
 .container{
     max-width: 60%;
 }
@@ -23,13 +27,15 @@ body{
 }
 .heroBody{
     color: #ffffff;
-    padding: 80px 80px 80px 0;
+    padding: 80px 80px 0px 0;
 }
 .heroBody h2{
     font-size: 70px;
     font-weight: 600;
+    line-height: 63px;
 }
 .heroBody p{
+    margin-top: 40px;
     font-size: 15px;
     font-weight: 500;
 }
@@ -69,5 +75,9 @@ body{
     text-decoration: none;
 }
 :root{
-    --animate-delay: 0.4s;
+    --animate-delay: 0.35s;
+}
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 0.1s !important;
 }
