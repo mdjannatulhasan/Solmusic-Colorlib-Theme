@@ -1,5 +1,17 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 60%;
+}
+.hero{
+    background:#0A183D;
+    padding: 100px 0;
+}
 .carousel-indicators{
     justify-content: start !important;
+    margin: 0 !important;
+    bottom: -80px !important;
 }
 .carousel-indicators [data-bs-target] {
     width: 10px !important;
@@ -8,4 +20,54 @@
 }
 .carousel-indicators .active {
     background-color: #FC0254;
+}
+.heroBody{
+    color: #ffffff;
+    padding: 80px 80px 80px 0;
+}
+.heroBody h2{
+    font-size: 70px;
+    font-weight: 600;
+}
+.heroBody p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.heroBody span{
+    color: #F50254;
+}
+.heroBodyImg{
+    background: url("images/hero-bg.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    min-height: 100%;
+}
+.hButton{
+    display: inline-block;
+    border: none;
+    min-width: 195px;
+    padding: 23px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: normal;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+}
+.pink{
+    background: #fc0254;
+}
+.blue{
+    background: #383B70;
+}
+.hButton a{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+:root{
+    --animate-delay: 0.4s;
 }
