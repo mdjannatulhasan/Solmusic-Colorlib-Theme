@@ -18,6 +18,7 @@ nav li{
 .hero{
     background:#0A183D;
     padding: 100px 0;
+    overflow: hidden;
 }
 .carousel-indicators{
     justify-content: start !important;
@@ -88,4 +89,53 @@ nav li{
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
   transition: opacity 0s 0.1s !important;
+}
+
+
+
+
+
+
+.how-it-works{
+    background: url("images/how-to-bg.jpg");
+}
+.secTitle{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.colIcon{
+    position: relative;
+    padding-bottom: 20px;
+}
+.colBg{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+}
+.colImg{
+    position: absolute;
+    top: 18px;
+    left: 32px;
+}
+.smrtphn{
+    left: 42px;
+}
+.colTitle{
+    margin-top:60px ;
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: 600;
+}
+.colBody{
+    padding-top: 30px;
+    font-size: 15px;
+    opacity: 0.6;
+    color: #ffffff;
+    text-align: justify;
+}
+.spacer-100{
+    padding-top: 100px;
 }
