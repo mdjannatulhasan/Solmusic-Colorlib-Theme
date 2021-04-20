@@ -2,8 +2,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .headSec{
-    background: #08192D;
     padding: 20px 40px;
+    background: #08192D;
+}
+.darkBlue{
+    background:#0A183D;
 }
 nav li{
     padding-right:35px; ;
@@ -13,10 +16,9 @@ nav li{
     cursor: pointer !important;
 }
 .container{
-    max-width: 60%;
+    max-width: 62%;
 }
 .hero{
-    background:#0A183D;
     padding: 100px 0;
     overflow: hidden;
 }
@@ -102,6 +104,7 @@ nav li{
 .secTitle{
     color: #ffffff;
     font-size: 60px;
+    line-height: 60px;
     font-weight: 600;
     margin-bottom: 40px;
 }
@@ -138,4 +141,38 @@ nav li{
 }
 .spacer-100{
     padding-top: 100px;
+}
+.spacer-20{
+    padding-top: 20px;
+}
+
+
+.midTitle{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #fc0254;
+    margin-top: -20px;
+}
+
+.subscription .colBody{
+    text-align: start;
+}
+.features{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 27px;
+    background: #1C294A;
+    /* padding: 0 80px; */
+    border-radius: 30px;
+}
+.d-flex{
+    height: 100% !important;
+}
+.listItem{
+    margin: auto;
+    padding: 12px 0;
+}
+.listItem img{
+    padding-right: 20px;
 }
