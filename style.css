@@ -90,7 +90,7 @@ nav li{
 }
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
-  transition: opacity 0s 0.1s !important;
+    transition: opacity 0s 0.1s !important;
 }
 
 
@@ -175,4 +175,14 @@ nav li{
 }
 .listItem img{
     padding-right: 20px;
+}
+
+
+
+
+@media (min-width: 1200px){
+    .navbar-expand-xl .navbar-nav .dropdown-menu {
+        position: absolute;
+        top: 67px;
+    }
 }
